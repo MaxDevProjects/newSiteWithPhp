@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 256" enable-background="new 0 0 512 256" xml:space="preserve">
+<rect x="119" y="83" fill="#353535" width="117" height="103"/>
+<ellipse fill="#0000FF" stroke="#000000" stroke-miterlimit="10" cx="351.5" cy="114.5" rx="27.6" ry="26.2"/>
+<ellipse fill="#FF0000" stroke="#000000" stroke-miterlimit="10" cx="311.5" cy="154.5" rx="27.6" ry="26.2"/>
+<path fill="#B7B7B7" d="M332,56H172c-44.2,0-80,35.8-80,80s35.8,80,80,80c22.4,0,42.6-9.2,57.1-24h45.8c14.5,14.8,34.8,24,57.1,24
+	c44.2,0,80-35.8,80-80S376.2,56,332,56z M220,146c0,3.3-2.7,6-6,6h-26v26c0,3.3-2.7,6-6,6h-20c-3.3,0-6-2.7-6-6v-26h-26
+	c-3.3,0-6-2.7-6-6v-20c0-3.3,2.7-6,6-6h26V94c0-3.3,2.7-6,6-6h20c3.3,0,6,2.7,6,6v26h26c3.3,0,6,2.7,6,6V146z M312,180
+	c-13.3,0-24-10.8-24-24s10.8-24,24-24s24,10.8,24,24S325.3,180,312,180z M352,140c-13.3,0-24-10.8-24-24s10.8-24,24-24
+	s24,10.8,24,24S365.3,140,352,140z"/>
+</svg>

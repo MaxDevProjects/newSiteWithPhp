@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Unica One', cursive;
+}
+
+.navbar-end a{
+    font-family: 'Unica One', cursive;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#lang>li>a{
+    margin-right: 2%;
+    color: white;
+    font-size: .8rem;
+    padding-right: 1vw;
+    transition: 1s;
+    animation: lang 1s ease-in-out;
+}
+li{
+    list-style: none;
+}
+
+
+
+p{
+    font-family: 'Vollkorn', serif;
+}
+#about>div>p{
+    font-size: 3vh;
+}
+
+#navMenu{
+    background-color: rgba(54, 54, 54);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.header{
+    background: url("/img/pexels-photo.jpg") no-repeat center fixed;
+    background-size : cover;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    /* clip-path: polygon(0 0, 100% 0, 100% 90%, 75% 95%, 40% 75%, 0 75%); */
+}
+
+#name{
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    margin-left: 5%;
+    letter-spacing: 20px;
+    font-size: 6em;
+    text-shadow: 0 0 15px #263238a8;
+    transform: translate(0, -50%);
+}
+
+#nickname{
+    position: absolute;
+    top: 40vh;
+    right: 0;
+    margin-right: 5%;
+    letter-spacing: 20px;
+    font-size: 7em;
+    text-shadow: 0 0 15px #263238a8;
+    transform: translate(-50, -100%);
+}
+
+#activity{
+    position: absolute;
+    top: 75vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5em;    
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 0 0 15px #ffffffa8;
+    color: #263238;
+}
+
+#arrow{
+    position: absolute;
+    top: 85vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #263238;
+    animation: arrow 2s infinite ease-in-out ;
+    -moz-animation: arrow 2s infinite ease-in-out ;
+    -o-animation: arrow 2s infinite ease-in-out ;
+    -webkit-animation: arrow 2s infinite ease-in-out ;
+}
+
+@keyframes arrow{
+    0%{
+        opacity: 0;
+        transform: translate(0,-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+@-o-keyframes arrow{
+    0%{
+        opacity: 0;
+        transform: translate(0,-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+@-moz-keyframes arrow{
+    0%{
+        opacity: 0;
+        transform: translate(0,-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+@-webkit-keyframes arrow{
+    0%{
+        opacity: 0;
+        transform: translate(0,-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+#hc>img{
+    filter: drop-shadow(6px 12px 6px #263238a8);
+    max-width: 80%;
+}
+
+#bootstrap{
+    max-height: 150px;
+    filter: drop-shadow(6px 12px 6px #263238a8);
+}
+
+
+#bulma{
+    max-height: 150px;
+    filter: drop-shadow(6px 12px 6px #263238a8);
+}
+
+#js{
+    max-height: 150px;
+    filter: drop-shadow(6px 12px 6px #263238a8);
+}
+
+#vue{
+    max-height: 150px;
+    filter: drop-shadow(6px 12px 6px #263238a8);
+}
+
+#photoshop{
+    max-height: 150px;
+    filter: drop-shadow(6px 12px 6px #263238a8);
+}
+
+#gamepad{
+    max-height: 150px;
+    filter: drop-shadow(6px 12px 6px #263238a8);    
+}
+
+.tech {
+    padding : 5% 0;
+}
+
+
+#contact{
+    height: 75vh;
+}
+
+#footer>a>i{
+    padding: 15px;
+}
+
+
+#games{
+    
+    display: none;
+}
+
+#pixels{
+    
+    display: none;
+}
+.image{
+    filter: drop-shadow(6px 12px 6px #263238a8); 
+}
+
+
+@media screen and (max-width : 769px){
+
+#name{
+
+    letter-spacing: 15px;
+    font-size: 3em;
+    left: 0;
+}
+
+#nickname{
+
+    letter-spacing: 15px;
+    font-size: 4em;
+    right: 0;
+}
+
+#activity{
+    letter-spacing: 2px;
+    font-size: 8vw;
+}
+
+}
