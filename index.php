@@ -67,7 +67,7 @@
             </nav>
         </div>
 
-        <div class="header">
+        <div class="header" alt="Negatve space photo" src="www.negativespace.co">
             <div class="container is-fluid ">
                 <h1 id="name" class="title has-text-light">Maxime</h1>
                 <h3 id="nickname" class="title has-text-light">MARTIN</h3>
@@ -96,38 +96,37 @@
                 <div  class="columns ">
                     <div id="hc" class="column has-text-centered tech" data-aos="zoom-in" data-aos-easing="ease-in-out" >
                         <!-- <i class="fab fa-html5 fa-9x " ></i> -->
-                        <img src="img/html5-css3.svg" title="HTML5/CSS3">
+                        <img src="img/html5-css3.svg" title="HTML5/CSS3" alt="html5/css3">
                         <!-- <i class="fab fa-css3-alt fa-9x"  title="CSS3"></i> -->
                         <!-- <img src="img/css3.svg" title="css3"> -->
                         
                     </div>
                     <div class="column has-text-centered tech" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="0" >
-                        <a  href="https://virtualcard-maxime-martin.netlify.com" target="_blank" class="js-scrollTo" onclick="myFunctionVue()"><img id="bootstrap" src="img/bootstrap.svg" title="Bootstrap"></img>
+                        <a href="https://virtualcard-maxime-martin.netlify.com" target="_blank" class="js-scrollTo" onclick="myFunctionVue()">
+                            <img id="bootstrap" src="img/bootstrap.svg" title="Bootstrap" alt="bootstrap"></a>
                     </div>
                     <div class="column has-text-centered tech" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="50">
-                        <a  href="#home" target="_blank" class="js-scrollTo" onclick="myFunctionVue()"><img id="bulma" src="img/bulma.svg" title="Bulma">
+                        <a  href="#home" target="_blank" class="js-scrollTo" onclick="myFunctionVue()"><img id="bulma" src="img/bulma.svg" title="Bulma" alt="bulma">
                     </div>
                 </div>
                 <div class="columns" >
                     <div class="column has-text-centered tech" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="100">
                         <!-- <i class="fab fa-js-square fa-9x"  ></i> -->
-                        <a  href="https://eat-it.netlify.com" target="_blank" class="js-scrollTo" onclick="myFunctionVue()"><img id="js" src="img/js.svg" title="JAVASCRIPT"></a>
+                        <a  href="https://eat-it.netlify.com" target="_blank" class="js-scrollTo" onclick="myFunctionVue()"><img id="js" src="img/js.svg" title="JAVASCRIPT" alt="javascript"></a>
                     </div>
                     <div class="column has-text-centered tech" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="150">
                         <!-- <i class="fab fa-vuejs fa-9x"  ></i> -->
-                        <a  href="https://lm-texteditor.netlify.com" target="_blank" class="js-scrollTo" onclick="myFunctionVue()"><img id="vue" src="img/vuejs.svg" title="VUEJS"></a>
+                        <a  href="https://lm-texteditor.netlify.com" target="_blank" class="js-scrollTo" onclick="myFunctionVue()"><img id="vue" src="img/vuejs.svg" title="VUEJS" alt="vuejs"></a>
                     </div>
                     <div class="column has-text-centered tech" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="200">
-                        <a  href="#pixels" class="js-scrollTo" onclick="myFunctionPixel()"><img id="photoshop" src="img/photoshop.svg" title="photoshop - pixelArt"></a>
+                        <a  href="#pixels" class="js-scrollTo" onclick="myFunctionPixel()"><img id="photoshop" src="img/photoshop.svg" title="photoshop - pixelArt" alt="realisation de pixel art"></a>
                     </div>
                     <div class="column has-text-centered tech"  data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="250">
-                        <a  href="#games" class="js-scrollTo" onclick="myFunction()"><img id="gamepad" src="img/gamepad-solid.svg" title="GameDev"></a>
+                        <a  href="#games" class="js-scrollTo" onclick="myFunction()"><img id="gamepad" src="img/gamepad-solid.svg" title="GameDev" alt="developpement de jeux video"></a>
                     </div>
                 </div>
-
+            </div>
         </div>
-
-        
 
 
         <!-- ########################################################-->
@@ -150,7 +149,7 @@
                 </div>
                 <div class='column'>
                     <figure class="image">
-                        <img width="390"src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/24862292_185228082030460_1620372317920365697_n.jpg?_nc_cat=0&oh=030594ee81e0531fcf54e885d72a767a&oe=5BE68EA6" alt="" title=""
+                        <img width="390"src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/24862292_185228082030460_1620372317920365697_n.jpg?_nc_cat=0&oh=030594ee81e0531fcf54e885d72a767a&oe=5BE68EA6" alt="final fantasy character" title="Moogle"
                         data-aos="flip-left" data-aos-easing="ease-in-out" data-aos-delay="0">
                     </figure>
                 </div>
@@ -537,7 +536,7 @@
         <!-- ########################################################-->
         <!-- ########################################################-->
 
-</div>
+
         <form id="contact" class="section container" name="contactform" method="post" action="send.php">
             <h3 class="subtitle is-2"><?php echo $lang['MENU_CONTACT']; ?></h3>
         <div class="field">
@@ -582,19 +581,19 @@
             </div>
         </div>
 
+        <div id="footer" class="content has-text-centered has-background-dark ">
+                <div >
+                    <a href="https://github.com/MaxDevProjects" target="_blank" class="has-text-grey-lighter"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/maxime--martin/" target="_blank" class="has-text-grey-lighter"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://twitter.com/maxIndieDev?lang=fr" target="_blank" class="has-text-grey-lighter"><i class="fab fa-twitter-square fa-2x"></i></a>
+                    <a href="https://www.facebook.com/maxNcoder/?ref=bookmarks" target="_blank" class="has-text-grey-lighter"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    <p class="has-text-light"><?php echo $lang['FOOTER_REALISED']; ?><a href="https://bulma.io/"  class="has-text-info">Bulma</a></p>
+                </div>
+        </div>
     </form>
 
 </body>
 
-<footer id="footer" class="">
-        <div class="content has-text-centered has-background-dark">
-            <a href="https://github.com/MaxDevProjects" target="_blank" class="has-text-grey-lighter"><i class="fab fa-github fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/maxime--martin/" target="_blank" class="has-text-grey-lighter"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://twitter.com/maxIndieDev?lang=fr" target="_blank" class="has-text-grey-lighter"><i class="fab fa-twitter-square fa-2x"></i></a>
-            <a href="https://www.facebook.com/maxNcoder/?ref=bookmarks" target="_blank" class="has-text-grey-lighter"><i class="fab fa-facebook-square fa-2x"></i></a>
-            <p class="has-text-light"><?php echo $lang['FOOTER_REALISED']; ?><a href="https://bulma.io/"  class="has-text-info">Bulma</a></p>
-        </div>
-</footer>
 
     <script>
         $(document).ready(function() {

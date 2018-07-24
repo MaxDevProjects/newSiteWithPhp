@@ -49,8 +49,8 @@ p{
     background: url("/img/pexels-photo.jpg") no-repeat center fixed;
     background-size : cover;
     width: 100%;
-    min-height: 100vh;
-    height: 100vh;
+    min-height: 98vh;
+    height: 98vh;
     /* clip-path: polygon(0 0, 100% 0, 100% 90%, 75% 95%, 40% 75%, 0 75%); */
 }
 
@@ -89,15 +89,15 @@ p{
 }
 
 #arrow{
-    position: absolute;
-    top: 85vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: #263238;
     animation: arrow 2s infinite ease-in-out ;
     -moz-animation: arrow 2s infinite ease-in-out ;
     -o-animation: arrow 2s infinite ease-in-out ;
     -webkit-animation: arrow 2s infinite ease-in-out ;
+    position: absolute;
+    top: 85vh;
+    right: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @keyframes arrow{
@@ -211,6 +211,8 @@ form{
 }
 
 
+
+
 @media screen and (max-width : 769px){
 
 #name{
@@ -230,6 +232,87 @@ form{
 #activity{
     letter-spacing: 2px;
     font-size: 8vw;
+}
+
+#arrow{
+    right: 45%;
+}
+
+
+}
+
+
+@media screen and (max-width : 769px) and (orientation : landscape){
+
+    #name{
+
+    letter-spacing: 15px;
+    font-size: 2em;
+    left: 0;
+}
+
+#nickname{
+
+    letter-spacing: 15px;
+    font-size: 2em;
+    right: 0;
+}
+
+#activity{
+    letter-spacing: 2px;
+    font-size: 4vw;
+}
+
+#arrow{
+    animation: arrow 2s infinite ease-in-out ;
+    -moz-animation: arrow 2s infinite ease-in-out ;
+    -o-animation: arrow 2s infinite ease-in-out ;
+    -webkit-animation: arrow 2s infinite ease-in-out ;
+    top: 75vh;
+    right: 45%;
+}
+
+@keyframes arrow{
+    0%{
+        opacity: 0;
+        transform: translate(0,-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+@-o-keyframes arrow{
+    0%{
+        opacity: 0;
+        transform: translate(0,-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+@-moz-keyframes arrow{
+    0%{
+        opacity: 0;
+        transform: translate(0,-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+@-webkit-keyframes arrow{
+    0%{
+        opacity: 0;
+        transform: translate(0,-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
 }
 
 }
