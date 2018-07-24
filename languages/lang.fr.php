@@ -3,7 +3,7 @@
 
 $lang = array();
 $lang['OTHER_LANGUE'] = 'en';
-$lang['PAGE_TITLE'] = 'Maxime Martin - Développeur Web - Front End';
+$lang['PAGE_TITLE'] = ' - Développeur Web - Front End - ';
 
 
 $lang['MENU_ABOUT'] = 'À PROPOS';
@@ -14,10 +14,11 @@ $lang['HEAD_ACTIVITY'] = 'DEVElOPPEUR WEB';
 
 $lang['ABOUT_P'] = 'Développeur web Front End autodidacte, sur le point d’intégrer une formation de web concepteur au CESI de Nantes afin de
                 me diplômer dans le domaine. Je vous propose des solutions de maquettage et de développement Front End pour vos sites perso
-                ou pro. Vous souhaitez faire une refonte de votre site, ou créer un nouveau. À l’aise avec les technologies HTML5/CSS3 et
+                ou pro.';
+$lang['ABOUT_P_BIS'] = ' Vous souhaitez faire une refonte de votre site, ou créer un nouveau. À l’aise avec les technologies HTML5/CSS3 et
                 langage de programmation Javascript pour ajouter du contenu dynamique. J’utilise principalement les frameworks CSS Bootstrap
                 et Bulma pour intégrer du contenu plus rapidement et de façon plus efficace, le tout responsif, soit adaptable sur tous les
-                supports(pc, tablette et mobile).';
+                supports (pc, tablette et mobile).';
 
 $lang['CONTACT_NAME'] = 'NOM - Prénom';     
 $lang['CONTACT_MAIL'] = 'adresse mail';     
@@ -53,6 +54,9 @@ $lang['DATE_4'] = '2 fev 2018';
 $lang['DATE_5'] = '13 fev 2018';
 $lang['DATE_6'] = '6 mars 2018';
 $lang['DATE_7'] = '28 mars 2018';
+
+$lang['MSG_SEND'] = 'Votre message à bien été envoyé. Je vous réponds dans les meilleurs délais.';
+
 
 
 ?>

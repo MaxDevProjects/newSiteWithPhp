@@ -3,7 +3,7 @@
 
 $lang = array();
 $lang['OTHER_LANGUE'] = 'fr';
-$lang['PAGE_TITLE'] = 'Maxime Martin - Web Developer - Front End';
+$lang['PAGE_TITLE'] = ' - Web Developer - Front End - ';
 
 
 $lang['MENU_ABOUT'] = 'ABOUT';
@@ -11,7 +11,8 @@ $lang['MENU_PORTEFOLIO'] = 'PORTE-FOLIO';
 $lang['MENU_CONTACT'] = 'CONTACT';
 
 $lang['HEAD_ACTIVITY'] = 'WEB DEVELOPER';
-$lang['ABOUT_P'] = 'Web developer self-taught Front End, about to integrate a training of Web designer into the CESI of Nantes to award a diploma me in the domain. I propose you solutions of maquettage and development Front End for your personal sites or pro. You wish to make a revision of your site, or to create a new one. Comfortable with the technologies HTML5/CSS3 and the Javascript programming language to add some dynamic contents. I use mainly frameworks CSS Bootstrap and Bulma to integrate some contents more quickly and in a more effective way, any responsif, is adaptable on all the supports (pc, tablet and mobile).';
+$lang['ABOUT_P'] = 'Web developer self-taught Front End, about to integrate a training of Web designer into the CESI of Nantes to award a diploma me in the domain. I propose you solutions of maquettage and development Front End for your personal sites or pro.';
+$lang['ABOUT_P_BIS'] = ' You wish to make a revision of your site, or to create a new one. Comfortable with the technologies HTML5/CSS3 and the Javascript programming language to add some dynamic contents. I use mainly frameworks CSS Bootstrap and Bulma to integrate some contents more quickly and in a more effective way, any responsif, is adaptable on all the supports (pc, tablet and mobile).';
 
 
 $lang['CONTACT_NAME'] = 'NAME - Nickname';   
@@ -50,5 +51,6 @@ $lang['DATE_5'] = 'feb 13th 2018';
 $lang['DATE_6'] = 'march 6th 2018';
 $lang['DATE_7'] = 'march 28th 2018';
 
+$lang['MSG_SEND'] = 'Your message in sent. I answer you as soon as possible.';
 
 ?>
