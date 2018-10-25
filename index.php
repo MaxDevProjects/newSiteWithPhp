@@ -359,7 +359,7 @@
                         <div class="content">
                         <h3 class="subtitle is-3">Halloween of Boby</h3>
                         <p>
-                            <?php echo $lang['GAME_2']; ?> <a href="https://www.gamecodeur.fr//" class="has-text-link">Gamecodeur</a>.<br>
+                            <?php echo $lang['GAME_2']; ?> <a href="https://www.gamecodeur.fr/" class="has-text-link">Gamecodeur</a>.<br>
                              <?php echo $lang['GAME_2_BIS']; ?><br>
                         <a href="https://twitter.com/search?q=%23Lua&src=tyah&lang=fr" target="_blank">#lua</a><a href="https://twitter.com/search?q=%23love2d&src=typd&lang=fr" target="_blank">#love2d</a><a href="https://twitter.com/search?q=%23gamecodeur&src=typd&lang=fr" target="_blank">#gamecodeur </a><a href="https://twitter.com/search?q=%23gamejam&src=typd&lang=fr" target="_blank">#gameJam</a>
                         <br>
