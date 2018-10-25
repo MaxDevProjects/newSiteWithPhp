@@ -3,7 +3,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "proad.maxime.martin@gmail.com";
-    $email_subject = "Your email subject line";
+    $email_subject = "message sur maximemartin.pro";
  
     function died($error) {
         // your error code can go here
@@ -74,13 +74,13 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);  
 header("Status: 301 Moved Permanently", false, 301);
-header('Location: index.php');
+header('Location: https://maximemartin.pro/index.php?lang=fr');
 
 ?>
  
 <!-- include your own success html here -->
  
-Thank you for contacting us. We will be in touch with you very soon.
+<!-- Thank you for contacting us. We will be in touch with you very soon. -->
  
 <?php
  

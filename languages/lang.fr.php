@@ -25,7 +25,7 @@ $lang['CONTACT_MAIL'] = 'adresse mail';
 $lang['CONTACT_PHONE'] = 'n° de téléphone';     
 $lang['CONTACT_SEND'] = 'Envoyer';  
 
-$lang['FOOTER_REALISED'] = 'Réaliser par Maxime MARTIN -';  
+$lang['FOOTER_REALISED'] = 'Réalisé par Maxime MARTIN -';  
 
 $lang['GAME_TITLE'] = 'Jeux vidéo réalisés';
 $lang['GAME_1'] = 'Ceci est mon premier jeu de Game Jam, dans le cadre de ma formation de développement de jeu vidéo en ligne';

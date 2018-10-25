@@ -1,4 +1,7 @@
 <?php
+
+
+
 $lang = 'fr';
 
 //si notre url ressemble à index.php?lang='en'
