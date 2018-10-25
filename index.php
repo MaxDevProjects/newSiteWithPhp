@@ -9,9 +9,8 @@
     <link rel="canonical" href="https://maximemartin.pro"/>
     <meta title="developpeur web, web concepteur, Webdesigner, maxime martin, nantes">
     <meta name="author" content="Maxime Martin">
-    <meta name="description" content="Maxime Martin développeur web front-end bootstrap et Bulma en région Nantaise.  Concepteur web, développeur web,  web designer, maxcoder, maxIndieDev, élève de gamecodeur">
-    <meta name="keywords" content="maxime martin, freelance, developpeur web, webdesign,HTML, CSS, JavaScript, bootstrap, bulma, nantes">
-
+    <meta name="description" content="Maxime Martin développeur web front-end bootstrap, Bulma et javascript en région Nantaise.  Concepteur web, développeur web,  web designer, maxcoder, @maxIndieDev">
+    <!-- <meta name="keywords" content="maxime martin, freelance, developpeur web, webdesign,HTML, CSS, JavaScript, bootstrap, bulma, nantes"> -->
     <!-- <meta http-equiv="refresh" content="5; URL=https://www.maximemartin.pro"> -->
     <!-- <meta http-equiv="default-style" content="URL=https://www.maximemartin.pro"> -->
 
